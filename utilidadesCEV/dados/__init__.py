@@ -1,3 +1,4 @@
+import Dicionários as d
 def leiadinheiro():
     while True:
         num = str(input('Digite o valor: R$')).replace(',', '.').strip()
@@ -13,8 +14,7 @@ def leiaInt(texto=''):
         texto = str(input('Digite um número: ')).strip()
         if texto.isnumeric():
             texto = int(texto)
-            return f'Você acabou de digitar o número {texto}'
+            return texto
         else:
             print(f'\033[1;31mTente novamente.\033[0m')
-
 
