@@ -31,7 +31,7 @@ def quer_continuar():
 def cabecalho(texto):
     print()
     print('=-'*20)
-    print(emoji.emojize(':sparkles:{}{:^40}{}:sparkles:'.format(cor['lilás'],texto, cor['limpa'], language = 'alias')))
+    print(emoji.emojize(':sparkles:{}{:^40}{}:sparkles:'.format(cor['amarelo'],texto, cor['limpa'], language = 'alias')))
     print('=-'*20)
     print()
 
@@ -52,5 +52,3 @@ def qualsexo():
         else:
             print('Opção inválida.')
     return sexo
-
-
